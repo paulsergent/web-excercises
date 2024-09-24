@@ -7,4 +7,28 @@ section{
     height: 400px;
     margin: 25px auto;
     border: 10px solid blue;
+    
+}
+section:nth-of-type(1){
+    background-image: linear-gradient(90deg, green 33%, white 33%, white 67%, green 67%);
+}
+section:nth-of-type(2){
+    background-image: radial-gradient(circle, red 30%, white 30%);
+}
+section:nth-of-type(3){
+    background-image: linear-gradient( red 33%, white 33%, white 38%, blue 38%, blue 62%, white 62%, white 67%, green 67%);
+
+}
+section:nth-of-type(4){
+    background-image: linear-gradient(green 33%, yellow 33%, yellow 67%, blue 67%);
+}
+section:nth-of-type(5){
+    background-image: linear-gradient(90deg, blue 33%, white 33%, white 67%, red 67%);
+}
+section:nth-of-type(6){
+    background-image: linear-gradient(90deg, black 33%, yellow 33%, yellow 67%, red 67%);
+
+}
+section:nth-of-type(7){
+    background-image: linear-gradient(black 33%, gold 33%, gold 67%, red 67%);
 }
