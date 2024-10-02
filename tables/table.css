@@ -22,7 +22,6 @@ table {
 td.colod,th.colod{
   background-image: url(./spacewp2.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
   color: white;
 }
 td, th {
