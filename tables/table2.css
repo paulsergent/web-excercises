@@ -19,7 +19,8 @@ table {
   margin-left: auto;
   margin-right: auto;
 }
-td:nth-child(odd), th:nth-child(odd) {
+td:nth-of-type(odd) 
+{
   background-image: url(./spacewp2.jpg);
   background-size: cover;
   color: white;
